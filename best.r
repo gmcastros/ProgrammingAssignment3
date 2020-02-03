@@ -21,7 +21,7 @@ best <- function(state, outcome) {
    stop("Invalid State")
  }
  
- valid_outcomes = c("hear attack", "heart failure", "pneumonia")
+ valid_outcomes = c("heart attack", "heart failure", "pneumonia")
  if(!requested_outcome %in% valid_outcomes) {
    stop("Invalid Outcome")
  }
